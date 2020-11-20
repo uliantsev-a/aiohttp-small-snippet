@@ -1,0 +1,14 @@
+pytest
+pytest-cov
+pytest-watch
+pytest-asyncio
+pytest-aiohttp
+
+coverage
+
+pylama
+mypy
+openapi-spec-validator
+
+ipython
+ipdb

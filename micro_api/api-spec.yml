@@ -1,0 +1,29 @@
+openapi: 3.0.2
+info:
+  title: Micro API
+  description: |
+    Micro API service provides information and interfaces of DB
+  version: 2.3.0
+paths:
+  /healthcheck:
+    get:
+      summary: Returns status of running of service with requirements, example database
+      responses:
+        200:
+          description: Router healthcheck
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - healthy
+                  - version
+                  - health_database
+                properties:
+                  healthy:
+                    type: boolean
+                  version:
+                    type: string
+                    example: 2.3.0
+                  health_jassets:
+                    type: object

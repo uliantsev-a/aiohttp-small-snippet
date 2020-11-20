@@ -1,0 +1,12 @@
+aiohttp >= 3.7
+marshmallow >= 3.9
+
+# PostgreSQL
+gino >= 1.0
+alembic >= 1.4
+psycopg2-binary >= 2.8
+
+backoff >= 1.10
+PyYAML >= 5.3
+addict >= 2.3
+mode >= 4.4
