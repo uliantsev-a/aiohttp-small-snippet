@@ -77,3 +77,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+pgdata/
+log/
+*-data/

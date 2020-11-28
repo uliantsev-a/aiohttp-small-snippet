@@ -17,8 +17,8 @@ paths:
                 type: object
                 required:
                   - healthy
+                  - database_healthy
                   - version
-                  - health_database
                 properties:
                   healthy:
                     type: boolean
